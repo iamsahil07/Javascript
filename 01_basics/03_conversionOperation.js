@@ -30,3 +30,14 @@ let variableInString = String(someNumber)
 
 // console.log(typeof variableInString); => string
 
+// ********************   operation   ***********************
+
+// console.log("1" + 2); => 12
+// console.log(1 + "2"); => 12
+// console.log("1" + 2 + 2); => 122
+// console.log(1 + 2 + "2"); =>32
+
+let str1 = "hello"
+let str2 = " sahil"
+
+console.log(str1 + str2);
