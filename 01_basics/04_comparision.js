@@ -22,4 +22,4 @@ console.log(undefined < 0); // false
 console.log(undefined == 0); // false
 
 console.log("2" == 2) // true
-console.log("2" === 2); // false
+console.log("2" === 2); // false, as it is checking 
