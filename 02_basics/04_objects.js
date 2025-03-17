@@ -80,15 +80,23 @@ console.log(instructor);
 
 // type : 1
 
-{
-    "name" : "sahil"
-    "email" : "sahil@gmail.com"
-}
+/* 
+
+  {
+      "name" : "sahil"
+      "email" : "sahil@gmail.com"
+   }
+
+*/
 
 // type : 2
 
-[
+/* 
+
+ [
     {},
     {},
     {}
-]
+  ] 
+  
+*/
