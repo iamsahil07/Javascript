@@ -1,6 +1,8 @@
 // forEach : it is an iterative method which an provided callback() 
 // function for each array element
 
+// NOTE : forEach does not return any value
+
 const arr = ["js", "py", "cpp", "ruby"];
 
 arr.forEach(function (val) {
