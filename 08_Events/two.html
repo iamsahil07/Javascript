@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Learning JavaScript to improve skills</h1>
+    <button id="stop">stop</button>
+</body>
+<script>
+    const myName = function(){
+        console.log("sahil")
+    }
+
+    // setTimeout only need function name and time
+    setTimeout(myName,2000)
+    const changeText = function(){
+        document.querySelector('h1').innerHTML = "Got it !"
+    }
+
+    // clearTimeout need the ref of setTimeout 
+    const change = setTimeout(changeText,4000)
+    document.querySelector('#stop').addEventListener('click',() => {
+        clearTimeout(change)
+        console.log('i have stopped it !')
+    })
+</script>
+</html>
