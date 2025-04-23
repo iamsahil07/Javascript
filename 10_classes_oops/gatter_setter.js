@@ -2,6 +2,8 @@
 
 //  For those reasons we use gatters and setters.
 
+
+// class based gatters and setters
 class user {
     constructor(email, password){
         this.email = email
